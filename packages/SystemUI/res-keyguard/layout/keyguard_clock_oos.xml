@@ -9,11 +9,11 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/below_clock_padding_start">
+        android:layout_height="wrap_content">
         <TextClock
             android:textSize="36.0dip"
             android:textColor="@android:color/white"
+            android:fontFamily="@*android:string/config_clockFontFamily"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:singleLine="true"
@@ -29,6 +29,7 @@
                 android:id="@+id/summary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@*android:string/config_clockFontFamily"
                 android:text="𝗡𝗘𝗩𝗘𝗥 𝘚𝘌𝘛𝘛𝘓𝘌"
                 android:singleLine="true"
                 android:textAlignment="viewStart"/>
@@ -42,6 +43,7 @@
                 android:textColor="@android:color/white"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@*android:string/config_clockFontFamily"
                 android:singleLine="true"
                 android:format12Hour="hh:mm"
                 android:format24Hour="HH:mm"/>
@@ -50,6 +52,7 @@
                 android:textColor="@android:color/system_accent1_600"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@*android:string/config_clockFontFamily"
                 android:singleLine="true"
                 android:maxLength="1"
                 android:format12Hour="hh:mm"
@@ -60,6 +63,7 @@
             android:textColor="@android:color/white"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@*android:string/config_clockFontFamily"
             android:singleLine="true"
             android:textAlignment="viewStart"
             android:format12Hour="MMMM dd "
