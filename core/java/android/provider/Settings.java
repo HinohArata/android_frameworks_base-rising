@@ -13609,6 +13609,42 @@ public final class Settings {
         public static final String STYLUS_POINTER_ICON_ENABLED = "stylus_pointer_icon_enabled";
 
         /**
+         * Quicksettings tile shape
+         * @hide
+         */
+        public static final String QS_TILE_SHAPE = "qs_tile_shape";
+
+        /**
+         * Quicksettings UI Style
+         * @hide
+         */
+        public static final String QS_STYLE_ROUND = "qs_style_round";
+
+        /**
+         * Quicksettings columns
+         * @hide
+         */
+        public static final String QS_NUM_COLUMNS = "qs_num_columns";
+
+        /**
+         * Quicksettings columns landscape
+         * @hide
+         */
+        public static final String QS_NUM_COLUMNS_LANDSCAPE = "qs_num_columns_landscape";
+
+        /**
+         * Quick QS columns
+         * @hide
+         */
+        public static final String QQS_NUM_COLUMNS = "qqs_num_columns";
+
+        /**
+         * Quick QS columns landscape
+         * @hide
+         */
+        public static final String QQS_NUM_COLUMNS_LANDSCAPE = "qqs_num_columns_landscape";
+
+        /**
          * These entries are considered common between the personal and the managed profile,
          * since the managed profile doesn't get to change them.
          */
